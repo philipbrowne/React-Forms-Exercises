@@ -1,0 +1,15 @@
+.Todo {
+  margin: 0.5rem;
+}
+
+.Todo-btn {
+  margin-left: 0.5rem;
+}
+
+.Todo-incomplete {
+  color: green;
+}
+.Todo-complete {
+  color: red;
+  text-decoration: line-through red;
+}
