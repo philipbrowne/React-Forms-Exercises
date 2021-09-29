@@ -25,7 +25,7 @@ const NewTodoForm = ({ addTodo }) => {
         value={name}
         onChange={handleChange}
       />
-      <button>Submit</button>
+      <button>Add Task</button>
     </form>
   );
 };

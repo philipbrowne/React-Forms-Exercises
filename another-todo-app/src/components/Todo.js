@@ -7,7 +7,6 @@ const Todo = ({ name, remove, editTodo, idx, id, handleCheck, isComplete }) => {
   const toggleEdit = () => {
     setIsEdit(!isEdit);
   };
-  console.log(isComplete);
   const classes = isComplete ? 'Todo-complete' : 'Todo-incomplete';
   return (
     <div className="Todo">
